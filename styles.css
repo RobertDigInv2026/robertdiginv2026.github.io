@@ -258,7 +258,7 @@ main {
   font-family: var(--font-ui);
   font-size: 0.95rem;
   line-height: 1.55;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.85);
   font-style: normal;
   text-align: center;
   min-height: 2.5em;
