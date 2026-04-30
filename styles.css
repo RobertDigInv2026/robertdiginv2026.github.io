@@ -256,7 +256,7 @@ main {
 .graphic-caption {
   margin: 1rem 0 0;
   font-family: var(--font-body);
-  font-size: 0.5rem;
+  font-size: 0.95rem
   line-height: 1.55;
   color: rgba(255,255,255,0.85);
   font-style: normal;
