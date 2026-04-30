@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welsh Literacy — Reading is a Privilege</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="page-header">
+    <span class="header-kicker">Investigative · Wales</span>
+    <h1>Wales' hidden literacy problem</h1>
+
+    
+  </header>
+
+  <div class="byline-bar">
+    <strong>Welsh Literacy Investigation</strong> &nbsp;·&nbsp; An in-depth look at adult literacy across Wales
+  </div>
+
+  <main>
+
+    <!-- ── INTRO ── -->
+    <section class="normal-section">
+      <h2>The literacy rate in Wales is a problem</h2>
+      <div class="boxed">
+        <p> Despite decades of research showing how important literacy is, we don’t know how many people in Wales can’t read. Though the current estimates suggest one in eight people have low literacy levels, this number is based on a survey over fifteen years old.</p>
+        <p>Other methods for tracking literacy rates are more up-to-date, but they present other issues with indirect measures, making literacy tricky to count.</p>
+        <p>It’s a problem for governments who need to decide what to spend money on and the needs of the country. And it’s a problem for people with poor literacy. Though they often find creative ways to cope, there are still some common problems.</p>
+        <p>We spoke to Read Easy UK, a national charity who offer support to adults learning to read, who along with other sources gave us information on common problems.</p>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ── SCROLLYTELLING ── -->
+    <section class="scrolly-section" id="scrolly">
+      <div class="scrolly-graphic" id="graphic">
+        <div class="graphic-inner" id="graphic-inner">
+          <div class="graphic-image-wrap" id="graphic-image-wrap">
+            <img class="graphic-img" id="graphic-img" src="" alt="" />
+            <p class="graphic-img-placeholder" id="graphic-img-placeholder">Scroll to begin the story.</p>
+          </div>
+          <p class="graphic-caption" id="graphic-caption"></p>
+        </div>
+      </div>
+
+      <div class="scrolly-text" id="scrolly-text">
+        <div class="step" data-step="1">
+          <h3>Healthcare</h3>
+          <p>According to Read Easy, a lot of the readers they have worked with have mentioned struggles with reading medication doses. Similarly, other organisations have described issues with accessing NHS care and reading medication leaflets.</p>
+        </div>
+        <div class="step" data-step="2">
+          <h3>Employment</h3>
+          <p>Many jobs often require qualifications, making jobs difficult to come across. The Adult Literacy Trust says people with low literacy skills are twice as likely to be unemployed and earn 60% less than those with basic literacy skills on average.</p>
+        </div>
+        <div class="step" data-step="3">
+          <h3>Public transport</h3>
+          <p>Public transport requires being able to read tickets and frequently changing timetables for navigation. More commonly, timetables and updates are moving online which can present further struggles.</p>
+        </div>
+        <div class="step" data-step="4">
+          <h3>Going out</h3>
+          <p>Menus at restaurants, cafes, and bars present challenges for people who struggle to read. This coupled with the social expectations of the situation can make the challenge larger.</p>
+        </div>
+        <div class="step" data-step="5">
+          <h3>Voting</h3>
+          <p>Literacy Mid-South describes how many struggling with literacy may face challenges voting. Voting is pivotal for social change, and though there are many audio and visual news sources, further information and candidates' stances may not be fully available in an accessible manner.</p>
+        </div>
+        <div class="step" data-step="6">
+          <h3>Appification</h3>
+          <p>Social activities like booking hotels or public services which require online apps or forms can often be inaccessible to those who struggle with literacy.</p>
+        </div>
+        <div class="step" data-step="7">
+          <h3>Isolation</h3>
+          <p>Due to the stigma associated with a lack of literacy, many sources such as The Literacy Foundation describe how many people struggling with literacy face isolation and struggle with low self-esteem.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- ── BOTTOM SECTION ── -->
+    <section class="normal-section">
+      <h2>How do we measure literacy?</h2>
+
+      <div class="boxed">
+
+        <section class="cards-section">
+          <div class="cards-table">
+            <div class="card" onclick="openModal('modal1')">
+              <img src="Survey.png" alt="Government Survey" />
+              <h3>Government Survey</h3>
+              <p>Explore →</p>
+            </div>
+            <div class="card" onclick="openModal('modal2')">
+              <img src="Degree.png" alt="Adult Literacy Programs" />
+              <h3>Adult Literacy Programs</h3>
+              <p>Explore →</p>
+            </div>
+            <div class="card" onclick="openModal('modal3')">
+              <img src="Prison.png" alt="Prison Literacy" />
+              <h3>Literacy Rates in Prisons</h3>
+              <p>Explore →</p>
+            </div>
+            <div class="card" onclick="openModal('modal4')">
+              <img src="Census.png" alt="UK Census" />
+              <h3>The UK Census</h3>
+              <p>Explore →</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <!-- ── FINAL REVEAL ── -->
+    <section id="final-section" class="normal-section" style="display: none;">
+      <h2>Conclusion</h2>
+      <div class="boxed">
+        <p>The strongest indicator of a child’s success in school is their parents’ level of education, according to the Adult Literacy Trust. It says that when literacy is undervalued, the effects ripple forward, creating an intergenerational cycle. </p>
+        <p>The available data in Wales right now from qualifications, employment surveys, and prison studies offer a glimpse at who may be struggling, but none provide a full picture. Large numbers of people remain statistically invisible, making the true scale of need unclear.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="page-footer">
+    Built with Scrollama &amp; CSS &nbsp;·&nbsp; Welsh Literacy Investigation
+    &nbsp;·&nbsp;
+    <button class="footer-about-btn" onclick="openModal('modal-about')">About</button>
+  </footer>
+
+  <!-- ── MODAL ABOUT ── -->
+  <div id="modal-about" class="modal">
+    <div class="modal-content modal-content--about">
+      <button class="close" onclick="closeModal('modal-about')" aria-label="Close">&times;</button>
+      <div class="modal-text">
+        <h2>About this project</h2>
+        <p>This project has been developed by Robert Chapman and Cerys Porter.</p>
+        <p>AI tools were used in the development and design of this webpage.</p>
+        <span class="section-label">Sources</span>
+        <p>All data visualisations were produced using <a href="https://www.datawrapper.de/" target="_blank" rel="noopener">Datawrapper</a>. The interactive experience is built with <a href="https://pudding.cool/process/introducing-scrollama/" target="_blank" rel="noopener">Scrollama</a>.</p>
+        <p><a href="https://www.gov.wales/sites/default/files/statistics-and-research/2019-01/national-survey-of-adult-skills-in-wales-2010.pdf" target="_blank" rel="noopener">National Survey of Adult Skills (2010)</a></p>
+        <p><a href="https://www.gov.wales/sites/default/files/statistics-and-research/2026-02/employer-skills-survey-2024-wales-report-089112.pdf" target="_blank" rel="noopener">Employer Skills Survey (2024)</a></p>
+        <p><a href="https://qualifications.wales/publications-resources/vocational-and-other-qualifications-quarterly-quarter-4-october-to-december-2025-for-wales/" target="_blank" rel="noopener">Qualifications Wales quarterly awards (2025)</a></p>
+        <p><a href="https://files.eric.ed.gov/fulltext/EJ1159960.pdf" target="_blank" rel="noopener">An assessment of the English maths skills levels of prisoners in England (2016)</a></p>
+        <p><a href="https://www.ons.gov.uk/census/maps/choropleth/education/highest-level-of-qualification/highest-qualification-6a/no-qualifications/" target="_blank" rel="noopener">Office for National Statistics map of highest level of qualifications (2021)</a></p>
+        <p><a href="https://readeasy.org.uk/" target="_blank" rel="noopener">Read Easy UK</a></p>
+       
+       
+        <p>If you or someone you know is affected by literacy challenges, the <a href="https://literacytrust.org.uk/" target="_blank" rel="noopener">National Literacy Trust</a> and <a href="https://www.readingagency.org.uk/" target="_blank" rel="noopener">The Reading Agency</a> offer free resources and support across Wales and the UK.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 1 ── -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal1')" aria-label="Close">&times;</button>
+      <div class="modal-text">
+        <h2>Government Survey</h2>
+        <p>The National Survey of Adult Skills in Wales was last conducted in 2010 and remains the closest available measure of adult literacy in Wales for individuals ages 16-65. The survey was conducted by interviewers who guided participants through questions on a computer and recorded their responses. They found that in Wales, 12% have Entry Level literacy skills (equivalent to ages 5-11). A further 29% were assessed at Level 1 (roughly GCSE D-G equivalent). </p>
+        <p>In response to enquiries from the Welsh Government Press Office, it was stated that another survey has not been carried out due to the cost (£1 million) and relevant data was collected via the Employer Skills Survey.</p>
+        <p>The Employer Skills Survey, conducted in 2024, interviewed employers and asked what basic skills they found difficult to get from applicants. It found that, among the skills employers reported difficulty finding in applicants, 29% cited reading instructions and reports, while 28% cited writing instructions and reports (up 6% from the 2022 survey).</p>
+        <p>However, the issue with this survey is it is asking for the perspective of employers and basing understanding of employment and literacy solely on this. This frames literacy as something validated through employer perception rather than measured directly. If someone has strong coping mechanisms it may go unnoticed.</p>
+        <p>It also only covers people in employment, excluding those unemployed or in precarious work, where low literacy may be more concentrated.</p>
+      </div>
+      <div class="modal-graph">
+        <iframe title="National Survey of Adult Skills: Literacy Rates in Wales from 2010." aria-label="Donut Chart" id="datawrapper-chart-nYcZn" src="https://datawrapper.dwcdn.net/nYcZn/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="584" data-external="1"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 2 ── -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal2')" aria-label="Close">&times;</button>
+      <div class="modal-text">
+        <h2>Adult Literacy Programs</h2>
+        <p>Qualifications Wales oversees Essential Skills Wales qualifications, designed to support the development of core skills like literacy, numeracy, and digital communication.</p>
+        <p>Between January 2021 to December 2025, around 27,000 Entry Level and Level One qualifications in communication were awarded. Just over 40% of these were Entry Level, equivalent to literacy levels expected of children aged 5-11. </p>
+        <p>While this gives insight into attainment, it fails to capture the full picture. Those who do not pass these qualifications are not recorded, leaving an unknown number of individuals unaccounted for.</p>
+        <p>In addition, the Adult Literacy Trust highlights significant barriers to returning to education. Caring responsibilities, financial pressures, and low confidence create barriers to education, meaning many adults who struggle with reading may not engage with formal qualifications, and remain invisible in the data. </p>
+      </div>
+      <div class="modal-graph">
+        <iframe title="Number of Essential Skills Qualifications in Communications" aria-label="Grouped column chart" id="datawrapper-chart-7ruVG" src="https://datawrapper.dwcdn.net/7ruVG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="449" data-external="1"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 3 ── -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal3')" aria-label="Close">&times;</button>
+      <div class="modal-text">
+        <h2>Literacy Rates in Prisons</h2>
+        <p>Prisons are often referenced in discussions of adult literacy, particularly as literacy is widely considered a foundation for future success. One study by the Social Exclusion Unit aimed to replicate a survey conducted for the general population by the Basic Skills Agency in 2004.</p>
+        <p>The study used intake forms and assessment processes to identify basic skills levels among inmates. They found that 80% of prisoners had the writing skills at or below the level of an 11-year-old, and a further 50% had the reading skills at or below that level.</p>
+        <p>While this provides some insight into the potential impacts of low literacy, it cannot be used to infer levels of literacy in the general population. On top of this, during processing and intake in a prison, people are in a very vulnerable state and experiencing a lot of trauma, which could impact their ability to read and write.</p>
+      </div>
+      <div class="modal-graph">
+        <iframe title="Basic skills within prison populations" aria-label="Bar Chart" id="datawrapper-chart-e63Av" src="https://datawrapper.dwcdn.net/e63Av/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="194" data-external="1"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MODAL 4 ── -->
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal4')" aria-label="Close">&times;</button>
+      <div class="modal-text">
+        <h2>The UK Census</h2>
+        <p>The Office for National Statistics (ONS) runs the census - gathering as much information from households across the UK for an in-depth understanding of the country. </p>
+        <p>Most recently conducted in 2021, they collected information on the number of people without qualification (not holding GCSEs between D-G). These figures vary significantly across Wales - ranging from 15% in Ceredigion to almost 30% in Blaenau Gwent. Compared with 2011, the number of people without qualifications has decreased by roughly 3% in the areas with the lowest rates.</p>
+        <p>The Census does provide some valuable information about qualifications across Wales. However, having (or not having) a qualification does not determine literacy. Though a certain number of those without qualifications might struggle with literacy, it is certainly not all of them. </p>
+        <p>The information from the Census, however, does give detailed information on areas where the literacy rates may be lower, and thus an idea on where to further look into things.</p>
+      </div>
+      <div class="modal-graph">
+       <iframe title="Percentage of Adults in Welsh local authority districts with no qualifications (2021)" aria-label="Choropleth map" id="datawrapper-chart-lsnQj" src="https://datawrapper.dwcdn.net/lsnQj/2/" scrolling="no" frameborder="0" style="border: none;" width="600" height="799" data-external="1"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scrollama"></script>
+  <script src="script.js"></script>
+</body>
+</html>
